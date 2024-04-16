@@ -1,8 +1,11 @@
+import Body from "./components/Body";
+import Head from "./components/Head";
 
 function App() {
   return (
     <div>
-      <h1 className="text-black font-bold">Namaste Youtube</h1>
+      <Head></Head>
+      <Body></Body>
     </div>
   );
 }
